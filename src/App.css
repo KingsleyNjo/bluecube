@@ -1,0 +1,180 @@
+.container{
+  background-color:ghostwhite;
+}
+
+.main{
+  margin:0 auto;
+  padding:0;
+  display:flex;
+  flex-direction:row;
+}
+
+.leftside{
+  margin-left:50px;
+  margin-top:28px;
+  position:relative;
+}
+
+.leftside h1{
+  color:blue;
+}
+
+.leftside button{
+  width:135px;
+}
+
+.leftside span{
+  position: absolute;
+  top:90px;
+}
+
+.leftside b{
+  font-size:11px;
+}
+
+.rightside{
+  position: relative;
+
+}
+
+.rightside input{
+  width:670px;
+  height:35px;
+
+}
+
+.searchinput button{
+  background-color:blue;
+  color:white;
+  border-color: blue;
+  border-radius:6px;
+  width:70px;
+  height:25px;
+  position: absolute;
+  left:680px;
+  top:110px;
+}
+
+input::placeholder{
+  position: relative;
+  left:50px;
+}
+.options{
+  margin-top:60px;
+  position: absolute;
+  right:20px;
+  position: relative;
+  z-index:2;
+
+
+}
+
+.single{
+  display:flex;
+  background-color:#fff;
+  margin:4px;
+  width:250px;
+
+}
+
+.single p{
+  transform: translateX(28px);
+
+}
+
+.singles{
+  display:flex;
+  background-color:#fff;
+  margin:4px;
+  width:250px;
+
+}
+
+
+.singles p{
+  transform: translateX(28px);
+
+}
+
+.adjust{
+  width:125px;
+}
+
+
+
+.options::hover{
+  display:flex;
+  flex-direction: column;
+  position:absolute;   /* the options things are moving when we hover so putting position:absolute makes it not move */
+}
+
+.upper{
+  display:flex;
+  flex-direction: row;
+  margin-top:73px;
+  margin-left:80px;
+}
+
+.special{
+  display: flex;
+  flex-direction: row;
+}
+
+.name{
+  transform:translate(-200px,30px);
+  font-size:10px;
+  color:grey;
+}
+
+.vertical {
+  border-left: 2px solid grey;
+  height: 800px;
+  position:absolute;
+  left:235px;
+}
+
+.lowupper{
+  margin-left:80px;
+  position: relative;
+  top:-220px;
+
+}
+
+.lowupper .first{
+  background-color:#fff;
+  padding:8px;
+  margin:1px;
+}
+
+.lowupper .second{
+  background-color:#fff;
+  padding:8px;
+  margin:1px;
+}
+
+.lowupper .third{
+  background-color:#fff;
+  padding:8px;
+  margin:1px;
+}
+.lowupper .fourth{
+  background-color:#fff;
+  padding:8px;
+  margin:1px;
+}
+.lowupper .fifth{
+  background-color:#fff;
+  padding:8px;
+  margin:1px;
+}
+.lowupper .sixth{
+  background-color:#fff;
+  padding:8px;
+  margin:1px;
+}
+.lowupper .seventh{
+  background-color:#fff;
+  padding:8px;
+  margin:1px;
+}
+
